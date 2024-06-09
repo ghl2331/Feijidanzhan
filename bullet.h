@@ -9,7 +9,6 @@ public:
 
     //更新子弹坐标
     void updatePostion();
-
 public:
     //子弹图片对象
     QPixmap m_Bullet;

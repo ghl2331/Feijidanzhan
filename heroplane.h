@@ -5,6 +5,7 @@
 #include "bullet.h"
 #include "config.h"
 
+
 class HeroPlane
 {
 public:
@@ -17,8 +18,7 @@ public:
     //飞机图片对象
     QPixmap m_Plane;
     //飞机坐标
-    int m_x;
-    int m_y;
+    Pos m_pos;
 
     //弹匣
     Bullet m_bullets[BULLET_NUM];

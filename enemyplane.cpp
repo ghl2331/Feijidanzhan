@@ -1,5 +1,6 @@
 #include "enemyplane.h"
 #include"config.h"
+
 Enemyplane::Enemyplane()
 {
     //敌机资源
